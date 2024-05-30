@@ -24,7 +24,9 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 ## 1. Clone este repositório:
 
-``` bash git clone https://github.com/Brandon-Magalhaes/Crypto-Landing.git ```
+``` bash 
+git clone https://github.com/Brandon-Magalhaes/Crypto-Landing.git
+```
 
 ## 2. Navegue até o diretório do projeto:
 
