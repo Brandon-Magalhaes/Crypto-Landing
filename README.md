@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto Landing Page
 
-## Getting Started
+Este repositório contém o código-fonte de uma landing page de criptomoedas, desenvolvida com Next.js, Tailwind CSS e TypeScript. O design foi inicialmente criado no Figma e posteriormente implementado para proporcionar uma interface moderna e responsiva.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
+- **Next.js**: Framework React para a criação de aplicações web modernas com funcionalidades como renderização no lado do servidor (SSR) e geração de sites estáticos (SSG).
+- **Tailwind CSS**: Framework de CSS utilitário que permite a criação rápida de interfaces personalizadas e responsivas.
+- **TypeScript**: Superconjunto de JavaScript que adiciona tipagem estática ao código, melhorando a segurança e a manutenção.
+
+## Funcionalidades
+
+- Design responsivo e moderno baseado em um protótipo do Figma.
+- Exibição dinâmica de dados de criptomoedas.
+- Código modular e organizado para facilitar a manutenção e expansão.
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+
+### Passos para Execução
+
+## 1. Clone este repositório:
+
+git clone https://github.com/Brandon-Magalhaes/Crypto-Landing.git
+
+## 2. Navegue até o diretório do projeto:
+
+cd Crypto-Landing
+
+## 3. Instale as dependências:
+
+npm install
+
+## 4. Inicie o servidor de desenvolvimento:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 5. Abra o navegador e acesse:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Scripts Disponíveis
 
-## Learn More
+npm run dev: Inicia o servidor de desenvolvimento.
+npm run build: Compila o projeto para produção.
+npm start: Inicia o servidor da aplicação em modo de produção após a compilação.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribuição
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de alterar.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licença
 
-## Deploy on Vercel
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Espero que agora esteja tudo conforme o esperado! Se precisar de mais alguma coisa, estou à disposição.
