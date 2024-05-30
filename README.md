@@ -24,23 +24,23 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 ## 1. Clone este repositório:
 
-git clone https://github.com/Brandon-Magalhaes/Crypto-Landing.git
+`git clone https://github.com/Brandon-Magalhaes/Crypto-Landing.git`
 
 ## 2. Navegue até o diretório do projeto:
 
-cd Crypto-Landing
+`cd Crypto-Landing`
 
 ## 3. Instale as dependências:
 
-npm install
+`npm install`
 
 ## 4. Inicie o servidor de desenvolvimento:
 
-npm run dev
+`npm run dev`
 
 ## 5. Abra o navegador e acesse:
 
-http://localhost:3000
+`http://localhost:3000`
 
 ## Scripts Disponíveis
 
