@@ -78,7 +78,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="px-4 md:px-8 lg:px-16 xl:px-32 m-20">
+      <div className="px-4 md:px-8 lg:px-16 xl:px-32 m-20">
         <div className="font-poppins font-bold text-xl md:text-3xl text-center">
           Today is Cryptocurrency Prices
         </div>
@@ -90,7 +90,7 @@ export default function Home() {
         <div className="pb-12">
           <AllCoins />
         </div>
-      </div> */}
+      </div>
       <div className="w-full min-h-[500px] md:flex md:flex-col md:justify-center md:items-center text-center md:text-start bg-backgroundWhite text-black pt-12 md:pt-24 md:pb-16 px-4 md:px-8 lg:px-16 xl:px-32">
         <h1 className="font-poppins font-bold text-xl mb-7 md:mb-11 md:text-3xl">
           The most trusted cryptocurrency platform
