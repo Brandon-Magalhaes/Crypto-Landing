@@ -24,7 +24,7 @@ const config: Config = {
         openSans: ["Open Sans", "sans-serif"],
       },
       backgroundImage: {
-        "gradient-custom": "linear-gradient(90deg, #4e0062 0%, #220076 100%)",
+        "gradient-custom": "linear-gradient(90deg, #220076 0%, #4e0062 100%)",
       },
     },
   },

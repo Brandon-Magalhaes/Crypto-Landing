@@ -47,12 +47,12 @@ export default function Card(props: CardProps) {
           <span className="text-textDataCard text-xs font-openSans font-normal flex">
             <Image
               src={timer}
-              alt="Calendario"
+              alt="Timer"
               width={10}
               height={10}
               style={{ marginRight: 2 }}
               sizes="100vw"
-              className="w-full h-auto"
+              className="w-full max-w-[10px] h-auto"
             />
             5 Min to read
           </span>
