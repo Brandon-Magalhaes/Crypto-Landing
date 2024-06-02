@@ -50,7 +50,7 @@ export default function Home() {
           <Header />
         </div>
 
-        <div className="flex justify-center items-center md:gap-5">
+        <div className="flex justify-center items-center md:gap-5 z-50">
           <div className="flex flex-col justify-center md:justify-start items-center md:items-start text-center md:text-start flex-1">
             <h1 className="font-poppins font-bold text-2xl md:text-4xl 2xl:text-6xl">
               Make better businees with Cryptocurrency
@@ -147,11 +147,11 @@ export default function Home() {
         <div className="flex items-center justify-center md:justify-center flex-1">
           <Image
             src={TwoCelGraphics2}
-            width={456}
-            height={485}
+            width={202}
+            height={215}
             alt="Two Phone with Graphics"
             sizes="100vw"
-            className="w-auto h-auto mb-7"
+            className="md:w-auto md:h-auto mb-7"
           />
         </div>
         <div className="md:hidden">

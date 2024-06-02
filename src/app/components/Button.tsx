@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface ButtonProps {
@@ -7,10 +8,14 @@ interface ButtonProps {
 
 export default function Button({ padding, describe }: ButtonProps) {
   return (
-    <div
-      className={`bg-buttonOrange rounded-full text-center flex justify-center items-center text-sm font-medium font-poppins cursor-default ${padding}`}
-    >
-      {describe}
-    </div>
+    <>
+      <Link href="#">
+        <div
+          className={`bg-buttonOrange rounded-full text-center flex justify-center items-center text-sm font-medium font-poppins cursor-default cursor-pointer ${padding}`}
+        >
+          {describe}
+        </div>
+      </Link>
+    </>
   );
 }

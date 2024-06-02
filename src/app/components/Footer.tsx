@@ -16,13 +16,13 @@ export default function Footer() {
         <h2 className="font-inter font-normal text-sm pt-2 pb-6 md:text-2xl	md:pt-4">
           Subscribe for the latest news, drops & collectibles
         </h2>
-        <div className="flex items-center rounded-full border-2 border-white justify-between ">
+        <div className="md:w-full md:max-w-[578px] flex items-center rounded-full border-2 border-white justify-between ">
           <input
-            className="md:text-start md:px-6 w-[60%] md:min-w-[300px] md:min-h-16 text-center pl-2 flex justify-center items-center flex-nowrap font-inter font-normal text-xs bg-transparent border-none outline-none placeholder-gray-400"
+            className="md:text-start md:px-6 w-[60%] md:min-w-[300px] md:min-h-14 text-center pl-2 flex justify-center items-center flex-nowrap font-inter font-normal text-xs bg-transparent border-none outline-none placeholder-gray-400"
             placeholder="Enter Your email address"
           />
           <div className="w-auto h-auto">
-            <Button describe="Subscribe" padding="py-2 px-6 md:py-6 md:px-10" />
+            <Button describe="Subscribe" padding="py-2 px-6 md:py-4 m-1" />
           </div>
         </div>
       </div>

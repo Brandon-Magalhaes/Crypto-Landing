@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CryptousLogo from "../../../../public/Images/Logo/CryptousLogo.svg";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 interface LinkProps {
   href: string;
@@ -8,18 +9,20 @@ interface LinkProps {
 }
 
 const Logo = () => (
-  <div className="flex items-center">
-    <Image
-      src={CryptousLogo}
-      alt="Logo Cryptous"
-      title="Cryptous Logo"
-      sizes="100vw"
-      className="w-auto h-auto"
-    />
-    <span className="font-poppins text-xl font-bold ml-2 md:text-2xl">
-      Cryptous
-    </span>
-  </div>
+  <Link href="#">
+    <div className="flex items-center cursor-pointer">
+      <Image
+        src={CryptousLogo}
+        alt="Logo Cryptous"
+        title="Cryptous Logo"
+        sizes="100vw"
+        className="w-auto h-auto"
+      />
+      <span className="font-poppins text-xl font-bold ml-2 md:text-2xl">
+        Cryptous
+      </span>
+    </div>
+  </Link>
 );
 
 const Links = ({ href, title }: LinkProps) => {
@@ -55,9 +58,11 @@ const Menu = ({ toggleMenu }: MenuProps) => {
 const Button = () => {
   return (
     <div className="flex justify-center items-center text-center">
-      <span className="font-poppins font-medium text-base text-white hidden md:block border-2 border-buttonOrange py-2 px-6 rounded-full">
-        Trade Now
-      </span>
+      <Link href="#">
+        <span className="font-poppins font-medium text-base text-white hidden md:block border-2 cursor-pointer border-buttonOrange py-2 px-6 rounded-full">
+          Trade Now
+        </span>
+      </Link>
     </div>
   );
 };
