@@ -19,7 +19,7 @@ import OneCelGraphic from "../../public/Images/OneCelGraphic.svg";
 import Crypto from "../../public/Images/Crypto.svg";
 import Button from "./components/Button";
 import BitcoinIllustration from "../../public/Images/IllustrationBitcoin.svg";
-
+//github teste
 const Store = () => (
   <div className="flex flex-1 gap-5">
     <Image
